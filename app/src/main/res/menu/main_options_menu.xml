@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_reboot"
+        android:title="Reboot"
+        app:showAsAction="never"
+        android:orderInCategory="999"/>
+
+    <item
+        android:id="@+id/action_poweroff"
+        android:title="Power off"
+        app:showAsAction="never"
+        android:orderInCategory="999"/>
+
+    <item
+        android:id="@+id/action_login"
+        android:title="Login"
+        app:showAsAction="never"
+        android:orderInCategory="999"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never"
+        android:orderInCategory="999"/>
+</menu>

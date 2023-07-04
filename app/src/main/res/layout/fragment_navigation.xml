@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NavigationFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/go_cnc_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cell network\nconnection"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/go_ic_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internet\nconnection"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_wifi_network_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WiFi network"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_router_info_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Router Info"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_cd_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connected devices"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_sms_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_contacts_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_stats_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Statistics"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_log_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logs"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/go_ussd_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USSD"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
