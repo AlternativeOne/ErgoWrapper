@@ -75,7 +75,6 @@ public class Utils {
         } else if (1 == cellularSysNetworkMode) { //GSM 2G3G
             if (cellularDataConnMode != 1 && cellularDataConnMode != 2 && cellularDataConnMode != 16) {
                 //3G
-                //g_network_dashboard = '3G';
 
                 if (rssi < 22)
                     return "0";
@@ -87,7 +86,6 @@ public class Utils {
                     return "3";
             } else {
                 //2G
-                //g_network_dashboard = '2G';
 
                 if (rssi < 6)
                     return "0";
@@ -99,7 +97,6 @@ public class Utils {
                     return "3";
             }
         } else if (2 == cellularSysNetworkMode) { //LTE
-            //g_network_dashboard = '4G';
 
             if (rssi < 21) {
                 return "0";
