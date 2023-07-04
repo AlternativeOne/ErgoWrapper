@@ -15,6 +15,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.regex.Pattern;
 
+//mainly, util methods from Ergo web interface
 public class Utils {
     public static String decodeSMSBody(String encodedBody){
         if (encodedBody==null || encodedBody.isEmpty()) return "";
